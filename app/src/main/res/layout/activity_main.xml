@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnOne"
+        style="@style/MyBoldButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E39090"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/btnBMI"
+        android:text="BMI_calc"
+        style="@style/MyBoldButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E39090" />
+
+    <Button
+        android:id="@+id/btnlearning"
+        android:text="Lerning_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E39090" />
+
+    <Button
+        android:id="@+id/btnTypesOfViews"
+        android:text="TypesOfViews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E39090" />
+
+    <Button
+        android:id="@+id/btnCardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card_View"
+        android:backgroundTint="#E39090" />
+
+    <Button
+        android:id="@+id/btnRecyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView"
+        android:backgroundTint="#E39090" />
+
+    <Button
+        android:id="@+id/btnToolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toolbar"
+        android:backgroundTint="#E39090" />
+
+    <Button
+        android:id="@+id/btnCustomToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom_Toast"
+        android:backgroundTint="#E39090" />
+
+    <Button
+        android:id="@+id/btnDialogBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog Box"
+        android:backgroundTint="#E39090" />
+
+    <Button
+        android:id="@+id/btnCustomDialogBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Dialog Box"
+        android:backgroundTint="#E39090" />
+
+    <Button
+        android:id="@+id/btnNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification Example"
+        android:backgroundTint="#E39090" />
+    <!--    <TextView-->
+    <!--        android:layout_width="80dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:text="Welcome sbcascbdvj;abcjkansc" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/first_tv"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:text="Hi there, Let's learn Android"-->
+    <!--        android:textColor="#EC0202"-->
+    <!--        android:textSize="13dp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/second_tv"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="harsh Karan"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/first_tv" />-->
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/second_tv"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        android:src="@drawable/baseline_3p_24" />-->
+
+
+</LinearLayout>
